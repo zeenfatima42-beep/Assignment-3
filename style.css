@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 100%;
+    height: 200px; 
+    background-image: url("background.jpg");  /* Corrected syntax */
+    background-size: cover;
+    background-position: top center;
+    border-radius: 10px 10px 0 0;
+    border: 3px solid white;
+    margin: 0;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: black;
+}
+
+.description {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons .youtube {
+    color: #FF0000; 
+}
+
+.social-icons .instagram {
+    color: #E1306C; 
+}
+
+.social-icons .facebook {
+    color: #1877F2; 
+
+}
+.price-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.activate-btn {
+    background: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 16px; 
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activate-btn:hover {
+    background: #0056b3;
+}
